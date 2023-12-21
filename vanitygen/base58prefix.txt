@@ -1,0 +1,6 @@
+# For more infomation, please see https://en.bitcoinwiki.org/wiki/List_of_address_prefixes
+# Please sort this file by `sort -k1.1,1.1 base58prefix.txt>base58prefix.new; mv base58prefix.new base58prefix.txt`
+# Symbol, Coin name, Address prefix, Address base58 version (prefix), Private key base58 version (prefix)
+DOGE,Dogecoin,D,30,158
+LTC,Litecoin,L,48,176
+NMC,Namecoin,M or N,52,180
