@@ -1,6 +1,8 @@
 # uvg
 Universal Vanity Generator to generate vanity address for all Bitcoin/Litecoin forks.
 
+![uvg-matrioshka-banner](https://github.com/koh-gt/uvg/assets/101822992/c8142aca-898c-42aa-b696-2b333f2cc0ea)
+
 # Usage
 ## List all supported crypto currencies - [See supported coins](https://github.com/koh-gt/uvg/wiki/Supported-coins) - [Add your coin](https://github.com/koh-gt/uvg/wiki/Add-coin):
 ```
@@ -55,12 +57,17 @@ https://github.com/samr7/vanitygen
 https://github.com/10gic/vanitygen-plusplus  
 https://github.com/kjx98/vanitygen-eth  
 
-## Project Credit 
+## Credits 
 1. https://github.com/samr7/vanitygen  
 2. https://github.com/exploitagency/vanitygen-plus  
 3. https://github.com/10gic/vanitygen-plusplus  
 4. https://github.com/AngelTs/vanitygen-plusplus-ported-for-VS2019  
-5. https://github.com/kjx98/vanitygen-eth  
+5. https://github.com/kjx98/vanitygen-eth
+6. https://www.reddit.com/r/Namecoin/comments/zmp7pu/a_proofofwork_solution_against_impersonation/  
+7. https://www.reddit.com/r/Namecoin/comments/vnkmzx/vanity_addresses_and_brute_forcing_private_keys/  
+
+## Images
+Cover Image - https://kardashev.fandom.com/wiki/Matrioshka_brain
  
 ## Known Issues
 1. oclvanitygen++ (GPU version) can't find vanity ETH address starting with 0x0.  
