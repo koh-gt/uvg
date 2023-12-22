@@ -501,7 +501,7 @@ main(int argc, char **argv)
 				fprintf(stderr,
 						"Generating BTC [Bitcoin] Testnet Address\n");
 				addrtype = 111;
-				privtype = 239;
+				privtype = 111+128;
 				break;
 			}
 
@@ -527,17 +527,10 @@ main(int argc, char **argv)
 				if (vg_get_altcoin(optarg, &addrtype, &privtype)) {
 					return 1;
 				}
-                if (strcmp(optarg, "GRS")== 0) {
-                    GRSFlag = 1;
-                }
-				else {
-				fprintf(stderr,
-						"No coin indicated.\nGenerating/Decrypting FEC [Ferritecoin] Address by default.\n");
-				addrtype = 36;
-				privtype = 36+127;
-				break;		
-
-				}
+		                if (strcmp(optarg, "GRS")== 0) {
+		                    GRSFlag = 1;
+		                }
+				
 			}
 			break;
 
