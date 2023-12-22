@@ -172,16 +172,9 @@ main(int argc, char **argv)
 					return 1;
 				}
 				if (strcmp(optarg, "GRS")== 0) {
-                    GRSFlag = 1;
-                }
-				else {
-				fprintf(stderr,
-						"No coin indicated.\nGenerating/Decrypting FEC [Ferritecoin] Address by default.\n");
-				addrtype_opt = 36;
-				privtype_opt = 36+127;
-				break;		
-
-				}
+		                    GRSFlag = 1;
+		                }
+				
 			}
 			break;
 
